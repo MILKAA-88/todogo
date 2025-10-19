@@ -1,20 +1,14 @@
 body {
-    background-color: white;
-}
-
-#neutralinoapp {
+    background-color: #1a191c;
+    color: white;
     text-align: center;
-    -webkit-user-select: none;
-    user-select: none;
-    cursor: default;
 }
-
-#neutralinoapp h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+.choices {
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }
-
-#neutralinoapp > div {
-    font-size: 16px;
-    font-weight: normal;
+.choices:hover {
+    text-decoration: underline;
 }
